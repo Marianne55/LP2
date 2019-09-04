@@ -1,0 +1,366 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+p{
+    font-family: "Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    line-height: 20px;
+    color: et#003366;
+    word-break: break-all;
+    text-align: justify;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bg{
+    background-image: url(../img/background35.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #03B47F;
+}
+.header > span{
+    color: #FFFFFF;
+    border:2px solid rgba(255,255,255,1);
+    padding: 10px 20px;
+}
+.header{
+    margin-top:30%;
+    margin-left:25%;
+    margin-right:20%;
+}
+.page{
+    background:rgba(255,255,255,1);
+    border-radius:10px;
+    margin: 0 5px;
+    margin-top: 100%;
+    padding: 20px 20px;
+}
+.page > img{
+    width: 100%;
+}
+.head{
+    font-size:25px;
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-weight:bold;
+    color:rgba(89,89,89,1);
+    line-height: 30px;
+}
+.JJ-20{
+    margin-top: 20px;
+}
+.page1{
+    background:rgba(255,255,255,1);
+    border-radius:10px;
+    margin: 0 5px;
+    margin-top: 20px;;
+    padding: 20px 20px;
+}
+.page1 > .BG img{
+    width: 55%;
+    height: 55%;
+}
+.BG{
+    display: flex;
+    flex-direction: row;
+    background-color: #EEEEEE;
+    margin-bottom: 10px;
+}
+.BG span{
+    font-size: 12px;
+    margin-top: 28px;
+    margin-left: 10px;
+    font-weight:400;
+    margin-bottom: 10px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.img{
+    margin: 0 20px;
+}
+.img img{
+    width: 100%;
+    border-radius:10px;
+    height: 200px;
+    margin-top: 15px;
+}
+.conv{
+    font-size:25px;
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.conversation > span{
+    position: relative;
+    left: 88px;
+    bottom: 38px;
+    font-size:10px;
+    color: #77777A;
+}
+.c_top{
+    overflow: hidden;
+}
+.c_top p{
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-weight:bold;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 15px;
+    float :left;
+}
+.three ul,.three ul li{
+    padding:0;
+    margin:0;
+    list-style:none;
+    float: right;
+    margin-top: 8px;
+    
+    
+}
+.three{
+    overflow: hidden;
+    position: relative;
+    margin-right:20px;
+}
+.three ul li img{
+    display:block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+.hr{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+.c_content{
+    overflow: hidden;
+    margin-top: 8px;
+}
+.c_content span{
+    width:20px;
+    height:17px;
+    margin-left:20px;
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-weight:bold;
+    color:rgba(124,123,129,1);
+    line-height:23px;
+}
+.c_content > img{
+    height:20px;
+    float:right;
+    margin-right: 20px;
+}
+.input_control{
+    
+    margin:20px 20px;
+}
+.input_control input{
+    width :100%;
+    border:1px solid rgba(210,210,210,1);
+    border-radius:4px;
+    padding:20px 20px;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.user img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    margin-left: 20px;
+    
+}
+.name{
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-weight:bold;
+    font-size: 15px;
+    padding: 0;
+    margin: 0
+}
+.r_msg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    flex:1;
+    margin-left: 10px;
+}
+.r_msg img{
+   transform: scale(0.35);
+   margin: 0;
+   position: relative;
+   right:11px;
+   bottom: 22px;
+}
+.conversation > span{
+    position: relative;
+    left: 88px;
+    bottom: 38px;
+    font-size:10px;
+    color: #77777A;
+}
+.leader{
+    height:16px;
+    font-size:14px;
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-weight:400;
+    color:rgba(114,114,114,1);
+    position: relative;
+    right:20px;
+    bottom:2px;
+}
+.more img{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.conversation > span{
+    position: relative;
+    left: 88px;
+    bottom: 38px;
+    font-size:10px;
+    color: #77777A;
+}
+.content{
+    position: relative;
+    left: 88px;
+    bottom: 20px;
+    font-size:18px;
+    margin-right: 120px;
+}
+.content span{
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-weight:400;
+    width: 100%;
+    color:rgba(55,55,55,1);
+    font-size: 13px;
+}
+a{ 
+    text-decoration:none; 
+    color:#333; 
+}
+.reply{
+    padding-left: 88px;
+}
+.reply > a{
+    margin-right: 1px;
+}
+.reply > span{
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    color: #727272;
+    
+}
+.reply > img{
+    transform: scale(0.8);
+    position: relative;
+    top:3px;
+    margin-right: 3px;
+}
+.share{
+    float:right;
+    margin-right: 20px;
+    transform: scale(0.8);
+}
+.BB{
+    background: #03B47F;
+    border-radius: 8px;
+    margin: 30px 20px 10px 20px;
+    text-align: center;
+    padding: 1px 1px;
+}
+.BB p{
+    font-size:17px;
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bg{
+    padding: 10px;
+}
+.italy{
+    font-weight:300;
+    font-style:italic;
+    color:rgba(74,74,74,1);
+    font-size: 13px;
+    margin-top: 0px;
+}
+.page2{
+    background:rgba(255,255,255,1);
+    border-radius:10px;
+    margin: 10px 5px;
+    padding-top: 10px;
+}
+.a img{
+    width: 100%;
+}
+
+.bottom{
+    position: relative;
+    display: block;
+    line-height: 0;
+}
+.bottom > img{
+    transform: scale(0.5);
+    position: absolute;
+    bottom: 1%;
+    left: 24%;
+    -webkit-animation: free_download 1s linear alternate infinite;
+    animation: free_download 1s linear alternate infinite;
+}
+@-webkit-keyframes free_download{
+    0%{-webkit-transform:scale(0.5);}
+    100%{-webkit-transform:scale(0.6);}
+}
+@keyframes free_download{
+    0%{transform:scale(0.5);}
+    100%{transform:scale(0.6);}
+}
+.top a{
+    display: block;
+    text-align: center;
+}
+a, img { 
+    -webkit-touch-callout: none; 
+}
+.threh{
+    margin-left: 10px;
+}
+#no{
+    position: fixed;
+    left :0;
+    bottom: 0;
+    
+}
+.ak{
+    background-color: #03B47F;
+    height: 110px;
+    border: 6px solid #03B47F;
+}
+.yes{
+    display: none;
+}
